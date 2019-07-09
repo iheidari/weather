@@ -1,3 +1,169 @@
-.aaa{
-    color: blue
+/* CUSTOM STYLES */
+body {
+  background: #fff;
+  margin-top: 20%;
+}
+
+.row {
+  -moz-animation-duration: 5s;
+  -moz-animation-delay: 0.5s;
+}
+
+h4 {
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 2s;
+}
+
+.wr {
+  background-color: #fff;
+  -moz-transition-duration: 1s;
+  padding-top: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.wr:hover {
+  background-color: #f1f1f1;
+}
+
+.w1 {
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 2.2s;
+}
+.w2 {
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 2.5s;
+}
+.w3 {
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 2.8s;
+}
+.w4 {
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 3.1s;
+}
+
+#w-bg {
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 2s;
+}
+
+.header {
+  font-size: 50px;
+  font-weight: lighter;
+  color: #999;
+  margin-top: 30px;
+  text-align: center;
+  -moz-animation-duration: 1.2s;
+  -moz-animation-delay: 0.2s;
+}
+
+.small-height {
+  height: 180px;
+  overflow-y: hidden;
+}
+
+.center {
+  margin-top: 40px;
+  margin-left: 20.5%;
+}
+
+.img-fluid {
+  width: 700px;
+}
+
+.img-text {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  margin-top: 52px;
+}
+
+.down {
+  margin-top: 20px;
+}
+
+#dist:hover {
+  color: #18b;
+}
+.desc {
+  font-size: 20px !important;
+  padding: 20px 0 0 0;
+}
+
+.flex-center {
+  text-align: center !important;
+  line-height: 10px;
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 1s;
+}
+
+.weather-report {
+  margin-top: 15px;
+  margin-left: 5%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center img {
+  margin: 0 auto;
+}
+
+.title {
+  color: #666;
+}
+
+.weather-details {
+  font-size: 25px;
+  color: #111;
+  font-weight: lighter;
+}
+
+a.small {
+  font-size: 16px;
+  font-weight: lighter;
+  color: inherit;
+}
+
+.description {
+  font-size: 16px !important;
+  opacity: 1;
+}
+
+a#temp-format {
+  color: inherit;
+}
+
+a#temp-format:hover {
+  color: #18d;
+}
+
+#coords {
+  font-size: 15px;
+  color: #555;
+  -moz-animation-duration: 2.3s;
+  -moz-animation-delay: 4s;
+  text-align: center;
+  margin-bottom: 32px;
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 4s;
+}
+
+.coords {
+  color: #111;
+  font-weight: lighter;
+}
+
+#user {
+  -moz-animation-duration: 1.5s;
+  -moz-animation-delay: 4.5s;
+}
+
+footer {
+  margin-top: 4%;
+  text-align: center;
+  color: #777;
+  font-size: 15px;
 }
